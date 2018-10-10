@@ -17,6 +17,15 @@
 <!--[if lte IE 8]>
 <script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
 <![endif]-->
+<script>
+  (function() {
+    var cx = '000888210889775888983:pqb3ch1ewhg';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
 
   </head>
   <body class="path-frontpage">
@@ -297,16 +306,7 @@
   
       <h2 class="visually-hidden">Search</h2>
     
-      <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
-  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
-      <label for="edit-keys" class="visually-hidden">Search</label>
-        <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
-
-        </div>
-<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit" />
-</div>
-
-</form>
+      <gcse:searchbox-only resultsUrl="/search/node/index.html"></gcse:searchbox-only>
 
   </div>
 
